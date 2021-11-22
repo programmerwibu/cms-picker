@@ -22,6 +22,15 @@
           </div>
         </div>
       </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <v-grid :source="rows" :columns="columns" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
@@ -29,11 +38,22 @@
 <script>
 import Sidebar from "../components/navigation/Sidebar.vue";
 import Navbar from "../components/navigation/Navbar.vue";
+import VGrid from "@revolist/vue-datagrid";
 export default {
   name: "Home",
   components: {
     Sidebar,
     Navbar,
+    VGrid,
+  },
+  data() {
+    return {
+      columns: [
+        { prop: "name", name: "First" },
+        { prop: "details", name: "Second" },
+      ],
+      rows: [{ name: "1", details: "Item 1" }],
+    };
   },
 };
 </script>
