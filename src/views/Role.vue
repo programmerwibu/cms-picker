@@ -1,3 +1,4 @@
+/Create/user
 <template>
   <div class="home">
     <Sidebar />
@@ -9,7 +10,7 @@
           <div class="col-6 d-flex justify-content-between ps-0">
             <div class="me-lg-3">
               <a href="#" style="font-weight: bold; font-size: 36px">
-                List of Users</a
+                List of Roles</a
               >
             </div>
           </div>
@@ -17,9 +18,9 @@
             <div class="btn-group">
               <button
                 class="btn btn-primary text-white"
-                @click="$router.push({ path: 'user-create' })"
+                @click="$router.push({ path: 'role-create' })"
               >
-                Create New User
+                Create New Role
               </button>
             </div>
           </div>
@@ -43,7 +44,7 @@ import Sidebar from "../components/navigation/Sidebar.vue";
 import Navbar from "../components/navigation/Navbar.vue";
 import DataTable from "vue-materialize-datatable";
 export default {
-  name: "Home",
+  name: "Role",
   components: {
     Sidebar,
     Navbar,
