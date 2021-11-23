@@ -1,4 +1,3 @@
-/Create/user
 <template>
   <div class="home">
     <Sidebar />
