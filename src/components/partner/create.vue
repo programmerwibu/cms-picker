@@ -9,7 +9,7 @@
           <div class="col-6 d-flex justify-content-between ps-0">
             <div class="me-lg-3">
               <a href="#" style="font-weight: bold; font-size: 36px">
-                Create New User</a
+                Create New Partner</a
               >
             </div>
           </div>
@@ -27,28 +27,23 @@
           <div class="col-8">
             <div class="card px-3 py-3 mb-3">
               <div class="row">
-                <h5>Buat user baru</h5>
+                <h5>Detail Patner</h5>
                 <div class="col-lg-6 mb-3">
                   <div class="form-group">
-                    <label for="Name">Name</label>
+                    <label for="Name">Company Name</label>
                     <input type="text" class="form-control" />
                   </div>
                 </div>
                 <div class="col-lg-6 mb-3">
                   <div class="form-group">
-                    <label for="Name">Username</label>
+                    <label for="Name">Company Alias</label>
                     <input type="text" class="form-control" />
                   </div>
                 </div>
+
                 <div class="col-lg-6 mb-3">
                   <div class="form-group">
-                    <label for="Name">Password</label>
-                    <input type="text" class="form-control" />
-                  </div>
-                </div>
-                <div class="col-lg-6 mb-3">
-                  <div class="form-group">
-                    <label for="Name">Phone Number</label>
+                    <label for="Name">Address</label>
                     <input type="text" class="form-control" />
                   </div>
                 </div>

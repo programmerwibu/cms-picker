@@ -30,6 +30,16 @@ const routes = [
     name: "rolecreate",
     component: () => import("../components/role/create.vue"),
   },
+  {
+    path: "/partner",
+    name: "partner",
+    component: () => import("../views/Partner.vue"),
+  },
+  {
+    path: "/partner-create",
+    name: "partnercreate",
+    component: () => import("../components/partner/create.vue"),
+  },
 ];
 
 const router = new VueRouter({
